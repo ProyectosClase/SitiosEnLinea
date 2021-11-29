@@ -1,0 +1,291 @@
+@import url ('https://fonts.googleapis.com/css2? family = Zen + Kaku + Gothic + New: wght @ 300 & display = swap');
+@import url(menu.css);
+@import url(banner.css);
+@import url(blog.css);
+@import url(info.css);
+@import url(formulario.css);
+@import url(cards.css);
+
+
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+	font-family: 'Zen Kaku Gothic New', sans-serif;
+    background: #CFECD3;
+}
+ header{
+	width: 100%;
+	height: 50px;
+	background: #333;
+	color:#fff;
+    
+
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 100;
+}
+.contenedor{
+	width: 98%;
+	margin: auto;
+    
+
+
+}
+h1{
+	float: left; 
+}
+header .contenedor{
+	display:table;
+}
+
+section{
+    width:100%;
+    margin-bottom:25px;
+    
+}
+#bienvenidos{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+    
+}
+
+footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.copy{
+    font-size: 20px;
+    
+}
+
+.sociales{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    
+}
+.sociales a {
+    color: #333;
+    text-decoration: none;
+    
+}
+
+@media (min-width: 768px)
+{
+    
+    .sociales{
+        width:auto;
+        
+    }
+    
+    footer .contenedor{
+        justify-content: space-between;
+        
+    }
+    
+    
+}
+
+@media (min-width: 1024px)
+{
+    .contenedor
+    {
+        width:1000px;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+.slider{
+    width:70%;
+    margin: auto;
+    border: solid 2px black;
+    overflow: hidden;
+}
+.slider ul{
+    width:400%;
+    padding: 0;
+    display: flex;
+   
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: steps(4);
+}
+.slider li{
+    list-style: none;
+    width: 100%;
+}
+.slider img{
+    width: 100%;
+        
+}
+
+@keyframes cambio 
+{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+
+
+
+
+/* Estilos del  contenido de acerca de nostros*/
+
+
+
+.contenido{
+    width:1300px;
+    height: 650px;
+    float: left;
+    background: #B0BEC4;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.contenido p{
+    font-size: 25px;
+    
+}
+.contenido ul{
+    font-size: 20px;
+    
+}
+
+
+/* Estilos del aside */
+
+
+
+
+
+
+.publicidad{
+    background: #B0BEC4;
+    width:440px;
+    height: 490px;
+    margin-top: 10px;
+    float: right;
+    border: 5px solid ;
+    padding: 15px;
+    
+        
+}
+
+
+
+
+
+/* formato medio*/
+
+@media (max-width: 1740px)
+{
+    
+    .contenido 
+    {
+        width: auto;
+        height: auto;
+        
+    }
+    
+
+      
+
+
+
+@media (max-width: 1740px)
+{
+    
+    .publicidad 
+    {
+        width: auto;
+        height: auto;
+        
+    }
+            
+}    
+
+    
+    
+
+/*cuando este en formato pequeño */
+
+
+@media (max-width: 800px)
+{
+    
+    .contenido 
+    {
+        width: auto;
+        height: auto;
+        
+    }
+    
+    .contenido p{
+    font-size: 25px;
+    
+    }
+    .contenido ul{
+    font-size: 20px;
+    
+}
+    
+@media (max-width: 800px)
+{
+    
+    .publicidad 
+    {
+        width: auto;
+        height: auto;
+        
+    }
+            
+}    
+
+
+    /* vinculos de acerca de nosotros  */
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

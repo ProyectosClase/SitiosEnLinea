@@ -1,0 +1,24 @@
+<!-- Este codigo no se esta utilizando debido a que quite el log de la pagina de inicio  -->
+<!-- No podrá ver este texto. -->
+
+
+#blog h3, h4{
+    text-align: center;
+    font-size: 23px;
+    
+}
+#blog.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+#blog article{
+    margin: 15px;
+}
+
+#blog img{
+    width: 100%;
+    max-width:100%;
+}

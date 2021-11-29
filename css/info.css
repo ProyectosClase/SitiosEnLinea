@@ -1,0 +1,91 @@
+#info {
+    background: #333;
+    color: #fff;
+    text-align:center;
+    padding:20px;
+    
+}
+
+#info .contenedor
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+    
+}
+.info-curso{
+    margin:20px;
+    
+}
+
+.info-curso img{
+    width 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
+
+@media (min-width:480px){
+    .info-curso{
+        width:45%;
+        
+    }
+}
+
+@media (min-width:1024px){
+    .info-curso {
+        width:auto;
+                
+    }
+}
+
+#info a 
+{
+    display:block;
+    width: 100%;
+    color: black;
+    text-decoration:none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 3px solid black ;
+    background: #B9C2D4;
+    
+
+}
+
+#info a:hover{
+    background: rgba(128,128,128,0.5);
+    background-color: #7B9AD8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
